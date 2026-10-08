@@ -90,6 +90,7 @@
 conda create -n VidEmo python=3.9
 conda activate VidEmo
 python -m pip install -r requirements.txt
+python -m pip install flash-attn==2.7.4.post1 --no-build-isolation
 cd ms-swift
 python -m pip install -e .
 ```
